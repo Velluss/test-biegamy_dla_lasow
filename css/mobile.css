@@ -1,0 +1,33 @@
+header img {
+    width: 70%;
+}
+nav .nawigacja {
+    width: 100%;
+    font-size: 25px;
+}
+#first-section {
+
+    font-size: 23px;
+    padding: 20px 60px;
+}
+footer img{
+    display: block;
+    margin: 0;
+}
+body {
+    background-position: center;
+}
+
+@media (max-width: 501px) {
+    header img {
+        width: 90%;
+    }
+    nav .nawigacja {
+        width: 100%;
+        font-size: 25px;
+    }
+    #first-section {
+        font-size: 18px;
+        padding: 20px 60px;
+    }
+}

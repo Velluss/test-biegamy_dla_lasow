@@ -1,0 +1,112 @@
+/*Wyzerowanie marginesów i ustawienie czcionki*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    background-image: url('images/forest-background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: overlay;
+}
+/*Pojemnik*/
+#wrapper {
+    margin: 0 auto;
+}
+
+/*Nagłówek*/
+header {
+    
+    padding: 30px 0;
+    width: 100%;
+    background-color:  rgb(255, 177, 13);
+}
+header img {
+    margin: 0 auto;
+    display: block;
+    max-width: 520px;
+    pointer-events: none;
+}
+
+/*Nawigacja strony*/
+nav {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 360px;
+}
+.nawigacja {
+    display: block;
+    width: 33.33%;
+    float: left;
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(0, 173, 136);
+    padding: 20px 0;
+    box-shadow: 0 0 1px black inset;
+    transition: all 800ms ease;
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -ms-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+}
+.nawigacja:hover {
+    background-color: rgb(0, 94, 73);
+}
+.nawigacja:active {
+    transition: all 1ms ease;
+    background-color: rgb(0, 51, 40);
+    -webkit-transition: all 1ms ease;
+    -moz-transition: all 1ms ease;
+    -ms-transition: all 1ms ease;
+    -o-transition: all 1ms ease;
+}
+/*tło miedzy nav i section*/
+
+
+/*Pierwsza sekcja strony*/
+#first-section {
+    background-color: rgb(115, 255, 0);
+    font-size: 24px;
+    padding: 40px 110px;
+}
+
+#first-section h1 {
+    font-size: 32px;
+}
+#first-section p {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+#first-section article {
+    margin: 65px 0;
+}
+
+#Sponsorzy {
+    background-color: crimson;
+    padding:100px 110px;
+}
+
+footer {
+    background-color: cyan;
+    padding: 50px 0;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+footer img{
+    display: inline-block;
+    width: 140px;
+    margin: 0px 60px;
+}
+#loga {
+    margin: 0 auto;
+    overflow: hidden;
+    width: fit-content;
+}
+
+::-webkit-scrollbar {width: 10px;background-color: transparent;}
+::-webkit-scrollbar-thumb{ border: 50px solid white; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; }
