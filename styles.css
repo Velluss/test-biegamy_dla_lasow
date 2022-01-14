@@ -29,6 +29,7 @@ header img {
     display: block;
     max-width: 520px;
     pointer-events: none;
+    margin-bottom: 360px;
 }
 
 /*Nawigacja strony*/
