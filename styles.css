@@ -70,7 +70,7 @@ nav {
 
 /*Pierwsza sekcja strony*/
 #first-section {
-    background-color: rgb(115, 255, 0);
+    background-color: rgb(88, 197, 0);
     font-size: 24px;
     padding: 40px 110px;
 }
@@ -87,12 +87,12 @@ nav {
 }
 
 #Sponsorzy {
-    background-color: crimson;
+    background-color: #a62840;
     padding:100px 110px;
 }
 
 footer {
-    background-color: cyan;
+    background-color: #00a8a8;
     padding: 50px 0;
     margin-bottom: 80px;
     overflow: hidden;
